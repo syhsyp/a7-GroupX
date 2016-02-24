@@ -1,14 +1,10 @@
 # install and load packages
-install.packages('dplyr')
-install.packages('knitr')
-install.packages('plotrix')
 library(plotrix)
 library(dplyr)
 library(knitr)
 
 # Read in files
-setwd('~/Desktop/a7-GroupX')
-data <- read.csv('data/intro_survey_data.csv')
+data <- read.csv('../data/intro_survey_data.csv')
 
 # Write a function to find the total number of countries they visited for different class standing
 number_of_countries <- function(my_data){
