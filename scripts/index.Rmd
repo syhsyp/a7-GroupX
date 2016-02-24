@@ -3,25 +3,10 @@ title: "index"
 output: html_document
 ---
 
-```{r, echo=FALSE, message=FALSE}
+```{r echo=FALSE, message=FALSE}
 source('summary.r')
-
-#source('chart2.r')
+source('chart1.r')
+source('chart2.r')
 ```
 
 ###Generally, the most class standing in this class is **`r most_class_standing`**. **`r num_apply_info`** students in this class are going to apply for Infomatics major out of `r total_students`. There are **`r num_country_more_than_ten`** students in this class have been to more than 10 countries.
-
-<hr>
-###Here is a histogram graph that shows the distribution of class standing in this class
-
-```{r echo=FALSE}
-source('chart1.r')
-build_chart1(survey)
-```
-
-<hr>
-###Here is a pie chart that displays the distribution of the sum of countries students in each class standing have been to
-
-```{r echo=FALSE}
-
-```

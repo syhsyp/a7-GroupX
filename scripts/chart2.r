@@ -1,5 +1,4 @@
 # install and load packages
-install.packages('plotrix')
 library(plotrix)
 library(dplyr)
 

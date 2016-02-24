@@ -16,10 +16,6 @@ build_chart1 <- function(my_data) {
         y = Number,
         name = "Number",
         type = "bar"
-<<<<<<< f0ae8e323edaa1abcd0d38159a150a6b065bd17b
         ) %>% layout(title = "The Class Standing Distribution of INFO498F")
-=======
-        ) %>% layout(title = "The Grade Distribution of INFO498F")
->>>>>>> changed chart2
   return(chart1)
 }
