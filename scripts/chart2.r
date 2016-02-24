@@ -1,8 +1,5 @@
 # install and load packages
-<<<<<<< f0ae8e323edaa1abcd0d38159a150a6b065bd17b
-=======
 install.packages('plotrix')
->>>>>>> changed chart2
 library(plotrix)
 library(dplyr)
 
