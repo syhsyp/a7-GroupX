@@ -6,7 +6,7 @@ library(plotly)
 original <- read.csv("../data/intro_survey_data.csv")
 
 ## change the data to a more observed form
-survey <- group_by(original, What.operating.system.do.you.typically.use.) %>% summarise(number = n())
+survey <- group_by(original, What.is.your.current.class.standing.) %>% summarise(number = n())
 colnames(survey) <- c("Grade", "Number")
 
 ## plot the bar chart based on the grade and the students distrubution
